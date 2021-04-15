@@ -13,7 +13,10 @@ public class Board {
 	// 매개변수 있는 생성자
 	Board(int bNumber ,String bTitle ,
 			String bWriter , String bContents ){
-		
+		this.bNumber = bNumber;
+		this.bTitle = bTitle;
+		this.bWriter = bWriter;
+		this.bContents = bContents;
 	}
 	
 	

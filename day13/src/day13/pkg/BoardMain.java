@@ -3,7 +3,7 @@ package day13.pkg;
 public class BoardMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Board b = new Board();
 		
