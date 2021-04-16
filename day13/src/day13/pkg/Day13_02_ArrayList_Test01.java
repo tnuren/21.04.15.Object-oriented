@@ -21,6 +21,7 @@ public class Day13_02_ArrayList_Test01 {
 			System.out.print("단어를 입력하세요 : ");
 			word = scan.next();
 			list.add(word);
+			// list.add(scan.next()); 가능
 		}
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
